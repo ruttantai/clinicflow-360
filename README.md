@@ -1,43 +1,29 @@
 ﻿# ClinicFlow 360
 
-A role-based clinic operations platform spanning appointments, billing, inventory, and operational dashboards.
+ClinicFlow 360 is a full stack project for running day-to-day clinic operations in one place: appointments, billing, inventory, and staff workflows.
 
-## Why this project stands out
-- Demonstrates depth in Full Stack Application.
-- Designed as a production-style portfolio case with measurable outcomes.
-- Includes architecture, roadmap, and implementation scaffolding that can be expanded quickly.
+I designed this project to show that I can build business software end to end, not just isolated frontend or backend features.
 
-## Primary focus
-- Full Stack Application
+## Focus
+- Full stack product development
 
-## Tech stack
+## Stack
 - React, FastAPI, PostgreSQL, Celery, Docker
 
-## Portfolio goals
-- Build a realistic end-to-end system, not just a demo.
-- Show technical decision-making and tradeoff thinking.
-- Showcase clean architecture, testing strategy, and delivery readiness.
+## What I want this repo to demonstrate
+- Clear domain modeling for a real business workflow
+- API and UI designed together to reduce complexity
+- Practical testing and deployment habits
 
-## Starter project structure
-- docs/: Product spec, architecture, ADRs
-- src/: Core implementation
-- tests/: Unit, integration, and e2e test suites
-- infra/: Deployment and infrastructure manifests
-- scripts/: Developer automation scripts
+## Starter structure
+- docs/: Product notes, architecture decisions, and roadmap
+- src/: Application code
+- tests/: Unit, integration, and e2e tests
+- infra/: Deployment and environment setup
+- scripts/: Local dev and automation scripts
 
-## Initial milestones
-1. Define product and technical scope in docs.
-2. Implement a thin vertical slice from user interaction to data persistence.
-3. Add CI checks and observability baseline.
-4. Publish demo assets and architecture diagrams.
-
-## Suggested demo narrative for recruiters
-- Problem: A realistic operational challenge with business impact.
-- Approach: Modern architecture with pragmatic tradeoffs.
-- Result: A maintainable, extensible system with clear product value.
-
-## Next implementation tasks
-- [ ] Write docs/architecture.md and docs/roadmap.md.
-- [ ] Implement core domain models and APIs.
-- [ ] Add seed data and test fixtures.
-- [ ] Add CI workflow and release checklist.
+## First build plan
+1. Implement role-based authentication and core appointment flow.
+2. Add billing and inventory modules with audit-friendly data design.
+3. Ship a minimal dashboard for operational visibility.
+4. Add CI checks and containerized local setup.
