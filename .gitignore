@@ -1,0 +1,19 @@
+﻿# Global
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Build
+build/
+out/
